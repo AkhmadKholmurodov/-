@@ -32,7 +32,6 @@ export default function HomeScreen() {
                 }} className="h-9 w-9 bg-gray-300 rounded-full"
                 />
                 <View className="flex-1">
-                    {/* <Text className="font-bold text-gray-400 text-xs">배달하기</Text> */}
                     <Text className="font-bold text-xl">
                         위치
                         <ChevronDownIcon size={20} color="white"/>

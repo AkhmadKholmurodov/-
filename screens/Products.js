@@ -8,46 +8,6 @@ const Products = () => {
         This is the products page. There are no products yet. Please come back later!
         This is the products page. There are no products yet. Please come back later!
         This is the products page. There are no products yet. Please come back later!
-        {/* This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later!
-        This is the products page. There are no products yet. Please come back later! */}
       </Text>
     </View>
   )
