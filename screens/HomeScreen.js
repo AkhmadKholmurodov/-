@@ -1,6 +1,6 @@
 import { useNavigation } from '@react-navigation/native'
 import React, { useLayoutEffect } from 'react'
-import { Image, SafeAreaView, Text, TextInput, View } from 'react-native'
+import { Image, SafeAreaView, ScrollView, Text, TextInput, View } from 'react-native'
 import {
     UserIcon,
     ChevronDownIcon,
@@ -10,6 +10,7 @@ import {
     ShoppingCartIcon,
 
 } from 'react-native-heroicons/outline'
+import Categories from '../components/Categories';
 
 export default function HomeScreen() {
 
@@ -21,15 +22,15 @@ export default function HomeScreen() {
         })
     }, []);
   return (
-    <SafeAreaView className="bg-[#00CCBB] h-36 absolute">
-        <Text >
+    <SafeAreaView className="bg-[#00CCBB] pt-5">
+
 
             {/* Header */}
-            <View className="flex-row  items-center mx-4 space-x-2">
+            <View className="flex-row pb-3 items-center mx-4 space-x-2">
                 <Image 
                 source={{
                     url:'https://avatars.githubusercontent.com/u/87185085?v=4'
-                }} className="h-9 w-9 bg-gray-300 rounded-full"
+                }} className="h-9 w-9 bg-gray-300 p-4 rounded-full"
                 />
                 <View className="flex-1">
                     <Text className="font-bold text-xl">
@@ -42,16 +43,21 @@ export default function HomeScreen() {
                 <UserIcon size={35} color={'white'}/>
             </View>
             {/* Search */}
-            <View className="flex-row items-center space-x-2 w-full">
-                <View className="flex-row space-x-2 bg-white p-3 rounded-md shadow-lg items-center w-[90%]">
-                    <MagnifyingGlassIcon color='#00CCBB'/> 
+            <View className="flex-row m-auto items-center w-full mx-2 px-2 pb-3 ">
+                <View className="flex-row  space-x-2 bg-white p-3 rounded-md shadow-lg items-center w-[95%]">
+                    <MagnifyingGlassIcon color='#00CCBB '/> 
                     <TextInput 
                     placeholder='맛집 이름을 찾아보세요!'
                     keyboardType='default'
                     />
                 </View>
             </View>
-        </Text>
+
+            {/* Body */}
+            <ScrollView className="bg-gray-100" contentContainerStyle={{paddingBottom: 100,}}>
+                <Categories/>
+            </ScrollView>
+
     </SafeAreaView>
     
   )

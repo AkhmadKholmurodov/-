@@ -3,7 +3,7 @@ import { Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './screens/HomeScreen';
-import MainChanges from './screens/MainChanges';
+// import MainChanges from './screens/MainChanges';
 import Products from './screens/Products';
 
 
@@ -19,10 +19,10 @@ export default function App() {
     <NavigationContainer>
       {/* Nav bar */}
       <Stack.Navigator>
-        <Stack.Screen name="#" component={HomeScreen} />
+        <Stack.Screen name="Home" component={HomeScreen} />
       </Stack.Navigator>
-      <Products/>
-      <MainChanges/>
+      {/* <Products/> */}
+      {/* <MainChanges/> */}
 
 
       {/* Footer buttons */}
