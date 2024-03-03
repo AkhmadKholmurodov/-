@@ -11,6 +11,7 @@ import {
 
 } from 'react-native-heroicons/outline'
 import Categories from '../components/Categories';
+import FeaturedRow from '../components/FeaturedRow';
 
 export default function HomeScreen() {
 
@@ -56,6 +57,19 @@ export default function HomeScreen() {
             {/* Body */}
             <ScrollView className="bg-gray-100" contentContainerStyle={{paddingBottom: 100,}}>
                 <Categories/>
+
+                <FeaturedRow
+                title="Featured"
+                description="Paid placements from our partners"
+                id="1" />
+                <FeaturedRow
+                title="Tasty Discounts"
+                description="Everyone is been enjoying these juicy descounts!"
+                id="2" />
+                <FeaturedRow
+                title="Offers near you"
+                description="Why not support your local restaurant tonight!"
+                id="3" />
             </ScrollView>
 
     </SafeAreaView>
