@@ -65,11 +65,11 @@ export default function HomeScreen() {
                 <FeaturedRow
                 title="Tasty Discounts"
                 description="Everyone is been enjoying these juicy descounts!"
-                id="2" />
+                id="discounts" />
                 <FeaturedRow
                 title="Offers near you"
                 description="Why not support your local restaurant tonight!"
-                id="3" />
+                />
             </ScrollView>
 
     </SafeAreaView>
